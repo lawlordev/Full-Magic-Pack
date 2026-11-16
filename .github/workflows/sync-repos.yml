@@ -10,8 +10,6 @@ permissions:
 
 jobs:
   sync-repos:
-    # Only the upstream pack syncs the sibling repos on push; forks (like the Loom-managed one) ship via their release command.
-    if: github.repository == 'MagicSetEditorPacks/Full-Magic-Pack'
     runs-on: windows-latest
 
     steps:
