@@ -1,0 +1,6 @@
+{
+  "$schema": "https://loomcode.dev/loom.schema.json",
+  "version": 1,
+  "targets": [],
+  "release": "sh scripts/loom-release.sh"
+}
